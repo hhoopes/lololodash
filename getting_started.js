@@ -1,10 +1,6 @@
 // include the Lo-Dash library
     var _ = require("lodash");
 
-    // var worker = function(list) {
-    //     return _.filter(list, {active: true})
-    // };
-
     var filter = function(list) {
         return _.filter(list, {active: true})
     };
